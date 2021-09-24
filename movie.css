@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;    
+}
+
+#logo img{
+    height: 80px;
+    margin: 10px 20px;
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.308);
+    background-size: contain;
+}
+#navbar ul, li, a, .input{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    transform: scale(1.2);
+}
+.input {
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 4px solid #ffffff;
+    border-radius: 50px;
+    font-family: Comic Sans MS;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 250px;
+    background: #240661bb;
+    border-radius: 10px;
+}
+#content{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    margin: 0%;
+    opacity: 90%;
+}
+
+#home{
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#title img{
+    display: block;
+    padding: 5px;
+    margin:  20px auto 30px auto;
+    width: 300px;
+}
+
+#poster img{
+    background-size: cover;
+    display: block;
+    margin: 40px auto 50px auto;
+    width: 50%;
+    height: 400px;
+    width: auto;
+    opacity: 80%;
+}
+#poster img:hover{
+    transform: scale(1.2);
+    opacity: 100%;   
+}
+
+#info ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#info ul li{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+#info ul li:hover{
+    transform: scale(1.2);
+    opacity: 100%; 
+}
+
+#plot{
+    background-color: rgba(5, 5, 75, 0.335);
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(6);
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#plot article{
+    opacity: 100%;
+    color: aliceblue;
+    margin: 20px 20px;
+    font-size: large;
+    font-style: italic;
+    background-color: rgba(40, 17, 73, 0.555);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#A{
+    height: 300px;
+    margin: 10px 40px 0px 200px;
+}
+
+#B{
+    height: 300px;
+    margin: 0px 200px 0px 200px;
+}
+
+article{
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#cast{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2);
+}
+
+#cast div{
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+    margin: 0px 50px 50px 50px;
+    padding: 5px;
+    background-color: rgba(75, 13, 134, 0.335);
+}
+
+#cast img{
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#cast article{
+    color: aliceblue;
+    font: caption;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+    border-radius: 20px;
+    background: local;
+}
+
+#cast article:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+#sim{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-row: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#sim div{
+    text-align: center;
+}
+#sim div img{
+    height: 300px;
+    margin: 20px;
+    border-width: 5px;
+    border-color: red;
+    border-style: double;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+}
+footer article{
+    font-size: 20px;
+    background-color: rgba(7, 7, 63, 0.534);
+}
